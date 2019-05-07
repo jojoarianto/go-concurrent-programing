@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	fmt.Println("Chapter 1")
+	fmt.Println("Chapter 1 - Basic")
 
 	go function1("goroutine2", 5) // run with go routine
 	go function1("goroutine3", 5) // run with go routine
